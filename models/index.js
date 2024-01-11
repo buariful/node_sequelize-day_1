@@ -18,8 +18,8 @@ const config = {
   DB_USERNAME: "root",
   DB_PASSWORD: "9148",
   DB_ADAPTER: "mysql",
-  // DB_NAME: "day_1",
-  DB_NAME: "day1",
+  DB_NAME: "day_1",
+  // DB_NAME: "day1",
   DB_HOSTNAME: "localhost",
   DB_PORT: 3306,
 };

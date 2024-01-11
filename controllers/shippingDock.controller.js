@@ -1,5 +1,6 @@
 const db = require("../models");
-const ShippingDock = db.shippingDock;
+// const ShippingDock = db.shippingDock;
+const ShippingDock = db.shipping_dock;
 
 exports.createShipping = async (req, res) => {
   ShippingDock.create(req.body)
